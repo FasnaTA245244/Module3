@@ -1,0 +1,13 @@
+package com.ust.ioc;
+
+public class TestLogin {
+
+	public static void main(String[] args) {
+		
+		String result=db.validate();
+		System.out.println(result);
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.ust.ioc;
+
+public class Login {
+	private String username;
+	private String password;
+	public String validate() {
+		return "Connection established";
+	}
+	
+
+}

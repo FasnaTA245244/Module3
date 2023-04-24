@@ -1,0 +1,14 @@
+package com.ust.ioc;
+
+public class TestLogin {
+
+	public static void main(String[] args) {
+		DBConnection db=new DBConnection();
+		Connection connection=db.getConnection();
+		result=db.validate();
+		System.out.println(result);
+		// TODO Auto-generated method stub
+
+	}
+
+}

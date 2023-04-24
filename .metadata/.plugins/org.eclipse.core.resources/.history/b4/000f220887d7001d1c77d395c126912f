@@ -1,0 +1,5 @@
+module IOC {
+	exports com.ust.ioc;
+	requires spring.beans;
+	requires spring.core;
+}

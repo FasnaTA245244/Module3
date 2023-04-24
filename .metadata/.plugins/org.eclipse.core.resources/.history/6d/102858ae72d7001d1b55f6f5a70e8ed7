@@ -1,0 +1,4 @@
+module IOC {
+	requires spring.beans;
+	requires spring.core;
+}
